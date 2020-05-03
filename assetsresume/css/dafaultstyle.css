@@ -1,7 +1,0 @@
-<div>
-[if screen resolution is lower then 960 px]
-    <div>
-    some new text only for lower resolution
-    </div>
-[end of condition]
-</div>
