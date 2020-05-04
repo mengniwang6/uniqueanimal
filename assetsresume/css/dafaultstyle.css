@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 120px;
+}
+
+footer {
+    padding:40px;
+    background: #34af95;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    color:white;
+}
+
+/* navigation custom styling */
+.customNavBg {
+    background-color: rgb(144, 229, 250)!important;
+}
+
+.customNavBg span.navbar-toggler-icon > i.fas.fa-bars {
+    color:white;
+    font-size: 30px;
+}
+
+.customNavBg > a.navbar-brand:hover {
+    color: white
+}
+
+.customNavBg > li {
+    margin-right: 20px;
+}
+
+/* FontAwesome hamburger icon styling */
+/* .customNavBg .navbar-toggler-icon > i.fa-bars {
+    color: white;
+    font-size: 30px;
+} */
+
+.customNavBg li.nav-item.active > a {
+    color: white;
+    font-weight: bold;
+}
+
+.customNavBg  a {
+    color: white;
+}
+
+.customNavBg li > a:hover {
+    color: rgb(44, 40, 34) !important;
+    text-decoration: underline;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.customNavBg a.dropdown-item {
+    color: rgb(1, 162, 255);
+    background-color: transparent;
+}
+
+.customNavBg a.dropdown-item:hover {
+    color: rgb(0, 60, 255);
+    text-decoration: underline;
