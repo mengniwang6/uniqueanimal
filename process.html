@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>process</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #main {
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+            width: 700px;
+            height: 1200px;
+            /*background-color: red;*/
+        }
+        
+        #top-frame {
+            width: 700px;
+            height: 400px;
+            /*background-color: blue;*/
+            border: 1px solid gray;
+        }
+        
+        #mid-frame {
+            margin-top: 10px;
+            width: 700px;
+            height: 400px;
+            /*background-color: aqua;*/
+            border: 1px solid gray;
+        }
+        
+        #bot-frame {
+            margin-top: 10px;
+            width: 700px;
+            height: 400px;
+            border: 1px solid gray;
+        }
+        
+        #text {
+            width: 200px;
+            height: 400px;
+            text-align: center;
+            /*background-color: rgb(232, 43, 97);*/
+            float: left;
+        }
+        
+        #top-frame .icon-link {
+            margin-top: 50px;
+            margin-left: 20px;
+            width: 480px;
+            height: 320px;
+            float: left;
+        }
+        
+        #title {
+            width: 670px;
+            height: 100px;
+            margin-left: 30px;
+        }
+        
+        #title h1 {
+            line-height: 100px;
+        }
+        
+        #mid-frame .icon-link {
+            width: 700px;
+            height: 300px;
+        }
+        
+        #mid-frame .icon-link a {
+            margin-left: 20px;
+        }
+        
+        #thank {
+            margin-top: 40px;
+            width: 700px;
+            height: 240px;
+            text-align: center;
+        }
+        
+        #th {
+            font-size: 48pt;
+            text-align: center;
+        }
+        
+        #package {
+            margin-left: 640px;
+            margin-bottom: 2px;
+        }
+        
+        #mycustomNav {
+            background-color: rgb(15, 161, 142);
+            width: 1357px;
+            height: 54px;
+        }
+        
+        #mycustomNav li {
+            list-style-type: none;
+            float: left;
+        }
+        
+        #mycustomNav a {
+            text-decoration: none;
+        }
+        
+        #mycustomNav h1 {
+            text-decoration: none;
+            color: white;
+        }
+        /* 以下是home页面*/
+        
+        #main2 {
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+            width: 700px;
+            height: 400px;
+            background-color: rgb(252, 254, 255);
+            border: 1px solid gray;
+        }
+        
+        #main2 #back-icon {
+            height: 60px;
+            width: 60px;
+            margin-left: 0;
+        }
+        
+        #main2 #icon {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+        }
+        
+        #main2 #menu {
+            margin-left: 280px;
+            margin-top: 20px;
+            width: 180px;
+            height: 180px;
+            /*border: 1px solid gray;*/
+            text-align: left;
+        }
+        
+        #main2 #menu ul {
+            list-style-type: none;
+            line-height: 50px;
+        }
+        /* 以上是home页面 */
+        /* 以下是sitmap */
+        
+        #main3.back {
+            width: 700px;
+            height: 50px;
+        }
+        
+        #main3 {
+            margin-top: 100px;
+            margin-left: auto;
+            width: 700px;
+            height: 700px;
+            background-image: url(icon\\sitemap.bmp);
+            background-size: 700px;
+        }
+        /* 以上是sitmap */
+        /* 以下是wireframe */
+        
+        #main4.back {
+            margin: auto;
+            width: 800px;
+            height: 50px;
+        }
+        
+        #main4 {
+            margin-top: 100px;
+            margin-left: auto;
+            width: 800px;
+            height: 2300px;
+            background-image: url(icon\\wireframe2.bmp);
+            background-size: 800px;
+        }
+        /* 以上是wireframe */
+        /* 以下是UI Style GUide */
+        
+        #main5 {
+            margin-top: 100px;
+            margin-left: auto;
+            width: 800px;
+            height: 1100px;
+        }
+        
+        #guide {
+            margin: auto;
+            width: 800px;
+            height: 500px;
+            background-image: url(icon\\styleguide.bmp);
+            background-size: 800px;
+        }
+        
+        #main5.back {
+            margin: auto;
+            width: 800px;
+            height: 50px;
+        }
+        
+        #person {
+            margin: auto;
+            width: 800px;
+            height: 500px;
+            background-image: url(icon\\persona.bmp);
+            background-size: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="collapse navbar-collapse" id="mycustomNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item title">
+                <a class="nav-link" href="index.html">
+                    <h1 style="margin-left: 20px;">VCD 5D</h1>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <h1 style="margin-left: 20px;">Home</h1>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link" href="helenresume.html">
+                    <h1 style="margin-left: 20px;">Final Resume</h1>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="top-frame">
+            <div id="text">
+                <h1 style="margin-top: 40px;">over view</h1>
+                <br><br><br><br><br>
+                <p style="margin-left: 20px;text-align:center;word-wrap: break-word;">ahjsdhfkajshldfjahsldkjfhajksdhfakncjkfiowjkonxkafirnskdjf;aefhskd;nfakdnfqklfkljdsfajfnjkdnfefjdnadfadjf</p>
+            </div>
+            <div class="icon-link">
+                <a href="#home"><img src="icon/icon-home.jpg" alt="home" width="150" height="150"></a>
+                <a href="#"><img src="icon/icon-aboutus.jpg" alt="home" width="150" height="150"></a>
+                <a href="#home"><img src="icon/icon-info.jpg" alt="home" width="150" height="150"></a>
+                <a href="#"><img src="icon/icon-conect.jpg" alt="home" width="150" height="150"></a>
+                <a href="#home"><img src="icon/icon-map.jpg" alt="home" width="150" height="150"></a>
+                <a href="#"><img src="icon/icon-waystohelp.jpg" alt="home" width="150" height="150"></a>
+            </div>
+        </div>
+        <!-- home -->
+        <a href="#" name="home"></a>
+        <div id="main2">
+            <div id="back-icon">
+                <a href="#"><img src="icon/icon-back.jpg" alt="" width="60" height="60"></a>
+            </div>
+            <div id="icon"><img src="icon/icon-home.jpg" alt="" width="100" height="100"></div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h1>Mobile</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h1>Tablet</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h1>Destop</h1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- process -->
+        <a href="#" name="process"></a>
+        <div id="mid-frame">
+            <div id="title">
+                <h1>process</h1>
+            </div>
+            <div class="icon-link">
+                <a href="#sitemap"><img src="icon/icon-1.jpg" alt="home" width="200" height="200"></a>
+                <a href="#wireframe"><img src="icon/icon-2.jpg" alt="home" width="200" height="200"></a>
+                <a href="#uiStyleGuide"><img src="icon/icon-3.jpg" alt="home" width="200" height="200"></a>
+            </div>
+        </div>
+        <!-- sitemap -->
+        <a href="#" name="sitemap"></a>
+        <div id="main3">
+            <div class="back">
+                <a href="#process"><img src="icon\icon-back.jpg" alt="" width="40" height="40"></a>
+            </div>
+        </div>
+        <!-- wire frame -->
+        <a href="#" name="wireframe"></a>
+        <div id="main4">
+            <div class="back">
+                <a href="#process"><img src="icon\icon-back.jpg" alt="" width="40" height="40"></a>
+            </div>
+        </div>
+        <!-- UI style guide -->
+        <a href="#" name="uiStyleGuide"></a>
+        <div id="main5">
+            <div class="back">
+                <a href="#process"><img src="icon\icon-back.jpg" alt="" width="40" height="40"></a>
+            </div>
+            <div id="guide">
+
+                <h1 style="text-align: center;">UI style guide</h1>
+            </div>
+            <div id="person">
+                <h1 style="text-align: center;">Persona</h1>
+            </div>
+        </div>
+        <div id="bot-frame">
+            <div id="back-top">
+                <a href="#"><img src="icon/icon-back to top.jpg" alt="home" width="60" height="60"></a>
+            </div>
+            <div id="thank">
+                <p id="th">Thank You</p>
+                <p>文本</p>
+            </div>
+            <div id="package">
+                <a href="jianli.html"><img src="icon/icon-resume.jpg" alt="home" width="60" height="56"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
